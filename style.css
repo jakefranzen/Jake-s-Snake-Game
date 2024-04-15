@@ -1,0 +1,36 @@
+/* Basic styles for the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the game area */
+#gameArea {
+    width: 400px; /* Change the width of the game area */
+    height: 400px; /* Change the height of the game area */
+    background-color: #fc3d3dea; /* Change the background color of the game area */
+    position: relative;
+    overflow: hidden;
+}
+
+.snake, .food {
+    width: 20px;  /* Size of the snake and food */
+    height: 20px; /* Size of the snake and food */
+    position: absolute;
+}
+
+.snake {
+    background-color: rgb(12, 12, 12);  /* Color of the snake */
+}
+
+.food {
+    background-color: rgb(90, 2, 2);    /* Color of the food */
+}
+
+
+/* Additional styles for the snake and food will be added in script.js and styled here */
